@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env
+*.sqlite*
+
+# Original research workbooks and duplicate document export.
+/global_saju_100_public_metrics.xlsx
+/saju_web_benchmark_100.xlsx
+/saju_web_PRD_v1.0.docx
