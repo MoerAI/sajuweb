@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/engine.test.js",
+    "test": "node --test tests/engine.test.js tests/reports.test.js",
     "sbom": "npm sbom --sbom-format cyclonedx"
   },
   "dependencies": {
